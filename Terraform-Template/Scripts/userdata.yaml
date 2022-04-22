@@ -1,0 +1,11 @@
+#cloud-config 
+
+users:
+   - name: cloud_user
+   ssh-authorized-keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+lHzV+z+9wNi2XOBTA0Fa1jkAMxI/gixZ6lrDVYX7FuNLSGS1RrDU0Tx/5MVmqStPdASjh+TUA+a1Ler7dd4ze4Qpu2bp7y6ToZxygEaxICm6fu4esOr/WlxWLcimMhwlbUBkwWmhHQ/lW0NWkSL4sQSxQeeasQG5LWgxhuYdB3EktEDnn0SkkUj8XhrkStQKP/Mj6zwGie/GnwUUjQNXokVvcre5AIkZnfwGB2Yjy65ikTvooFnCfRPUvSM+c+T02pgUrXpjlQwRar2j0NhtSseN+U7uLc/pOhDWrJIHJjo4QjSWQuFOGroDiaOakI7pgwwViXCOV++7ZpznDZjf9WMjvXnZOL1zv6to1Nim09Bebj+fG7dhGcnss/w/IKlsB6Cd5Zr2vB73fNvgp21Fax9dBCsN02hpREAlNe3Am0YetuCNX+PHG2V/Zi4VWZT54vDsMD4AlkwJm5+5aePwNk4afEAhiiKRcZCpWTqEfJCzuzDWJw4Eip8XL/91rCucUvOUCxyLz4ZaX8csekdNZgdnxpTGw0pcIl85dZY3nKwiKM2zVKNoA4r70+hzZh21XcArEChMOoD05h8qlWu9OUenG6lWx+D1MgaY7/g9BrkLvi4WqHJml5BAd5QzHBpsluW6lO5o4z6kxD48c9G1QGquitV3jRNPQvdGadXpLw== oumayma@oumayma
+
+
+     sudo: ['ALL=(ALL) NOPASSWD:ALL']
+     groups: sudo
+     shell: /bin/bash

@@ -1,0 +1,11 @@
+network:
+  version: 2
+  ethernets:
+    ens192:
+      dhcp4: false #true to use dhcp
+      addresse: 10.203.18.19/24 #Set you ip here
+      gateway4: 10.203.18.254 # Set gw here
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 8.8.4.4 # Set DNS ip address here
